@@ -1,0 +1,34 @@
+*{
+text-transform: capitalize;
+}
+.reg-con{
+    background: url("./src/images/register.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.reg-form{
+ background-color: white;
+ width: 500px;
+ padding: 25px;
+ height: 460px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ border-radius: 10px;
+}
+
+p{
+    color: rgb(75, 71, 71);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.register{
+    color: black;
+}
